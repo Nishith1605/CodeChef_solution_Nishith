@@ -1,0 +1,25 @@
+//Minimum Pizzas
+code:
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T,N,X;
+	
+	cin>>T;
+	
+	for(int i=0;i<T;i++){
+	    
+	    cin>>N>>X;
+	    int c=N*X;
+	    if(c%4==0){
+	    cout<<c/4<<endl;
+	    }
+	    else {
+	    cout<<c/4 +1<<endl;
+	    }
+	    
+	}
+	
+	return 0;
+}
